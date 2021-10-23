@@ -4,7 +4,9 @@ public class OccuranceOfCharInString
 	public static void main(String[] args)
 	{
 		String str="HelloWorld";
-		char []arr=str.toCharArray();
+		String str1=str.toLowerCase();
+		System.out.println(str1);
+		char []arr=str1.toCharArray();
 		int len=arr.length;
 		int count;
 		System.out.println("length of the char array is:"+len);
