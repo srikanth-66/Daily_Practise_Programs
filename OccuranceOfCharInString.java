@@ -3,7 +3,7 @@ public class OccuranceOfCharInString
 {
 	public static void main(String[] args)
 	{
-		String str="HelloWorld";
+		String str="HhelloWorld";
 		char []arr=str.toCharArray();
 		int len=arr.length;
 		int count;
