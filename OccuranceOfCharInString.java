@@ -8,6 +8,7 @@ public class OccuranceOfCharInString
 		int len=arr.length;
 		int count;
 		System.out.println("length of the char array is:"+len);
+		System.out.println("{");	
 		for(int i=0;i<len-1;i++)
 		{
 			count=1;
@@ -24,7 +25,10 @@ public class OccuranceOfCharInString
 
 				}
 			}
-				System.out.println(arr[i]+" = "+count);	
+				System.out.println("\t"+arr[i]+" = "+count);	
+
 	}
+		System.out.println("}");	
+
 	}
 }
