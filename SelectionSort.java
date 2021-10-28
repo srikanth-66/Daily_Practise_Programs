@@ -4,10 +4,10 @@ public class SelectionSort
 {
 	public void slectionSortCode(int numbers[],int len)
 	{
-		int i;
+		int i,j;
 		for (i=0;i<len-1;i++)
 		{
-			for (int j=i+1;j<len-1;j++)
+			for (j=i+1;j<len-1;j++)
 			{
 				if(numbers[j]<numbers[i])
 				{
@@ -40,7 +40,6 @@ public class SelectionSort
 		System.out.println("Before Slection Sort the elements are:");
 		ss.display(numbers);
 		ss.slectionSortCode(numbers,len);
-		
 		System.out.println("After selection sort:");
 		ss.display(numbers);
 	}
