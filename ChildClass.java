@@ -25,4 +25,8 @@ public class ChildClass extends ParentClass {
 	public void setQualification(String qualification) {
 		this.qualification = qualification;
 	}
+	@Override
+	public String toString() {
+		return "ChildClass [name=" + name + ", age=" + age + ", qualification=" + qualification + "]";
+	}
 }
